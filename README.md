@@ -1,5 +1,5 @@
 # Running submiterator in batch mode
-Scripts for posting batches of HITs to MTurk via submiterator
+Scripts for posting batches of HITs to MTurk via [Submiterator](https://github.com/feste/Submiterator)
 
 # Usage
 
