@@ -1,13 +1,19 @@
 # Running submiterator in batch mode
 Scripts for posting batches of HITs to MTurk via [Submiterator](https://github.com/feste/Submiterator)
 
+# Setup
+
+- Check that `submiterator` is available as a system-wide command so that you can run, e.g. `submiterator posthit example` (follow the instructions from the [Submiterator](https://github.com/feste/Submiterator) README).
+
+- Make a folder for your experiment containing a submiterator .config file
+
 # Usage
 
 ### To post batches of experiments:
 
 `./post_batches.sh nameOfExpt nBatches nTurkersPerBatch`
 
-- `nameOfExpt`: a string, name of the folder inside which lives `nameOfExpt.config` [see [submiterator for details](https://github.com/feste/Submiterator)]
+- `nameOfExpt`: a string, name of the folder you created above
 - `nBatches`: the number of batches to run
 - `nTurkersPerBatch`: the number of turkers you want for each batch (note, if you the number of turkers per batch is 9 or fewer, you avoid the +20% mturk fee)
 
